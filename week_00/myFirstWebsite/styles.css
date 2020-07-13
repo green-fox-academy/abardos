@@ -1,0 +1,91 @@
+body {
+    background-image: url(assets/background.png);
+    text-align: justify;
+    margin: 0;
+}
+
+.logo {
+    padding-top: 8px;
+    padding-left: 10%;
+    float: left;
+}
+
+nav {
+    font-family: 'Courier';
+    background-color: #333333;
+    text-transform: uppercase;
+    height: 10px;
+    text-align: right;
+    padding-top: 16px;
+    padding-right: 10%;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    word-spacing: 2em;
+}
+
+a {
+    color: #ff0099;
+    font-size: 16px;
+}
+
+main {
+    display: block;
+    padding-top: 52px;
+    padding-right: 10%;
+    padding-bottom: 52px;
+    padding-left: 10%;
+}
+
+h1, h2, h3 {
+    font-family: 'Alegreya', serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 0;
+}
+
+#h3 {
+    color: #ff0099;
+    line-height: 10px;
+    padding-bottom: 10px;
+}
+
+.separator {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: 'Courier';
+    line-height: 25px;
+}
+
+.p1 {
+    font-size: 20px;
+}
+
+.p2 {
+    font-size: 16px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
