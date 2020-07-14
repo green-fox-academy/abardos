@@ -1,0 +1,82 @@
+nav {
+    font-family: 'Shadows Into Light', cursive;
+    background-color: #F2D989;
+    margin: 0;
+    height: 50px;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+body {
+    margin: 0;
+    background-image: url(assets/Subtle-Stripes.svg);
+}
+
+main {
+    font-family: 'Shadows Into Light', cursive;
+    display: block;
+    padding-top: 0;
+    padding-right: 10%;
+    padding-bottom: 30px;
+    padding-left: 10%;
+}
+
+.h1 {
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 10%;
+    float: left;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.title {
+    width: 200px;
+    border: 2px dotted black;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+textarea {
+    font-family: 'Shadows Into Light', cursive;
+    border: 2px dotted black;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+button {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px dotted black;
+    background-color: #F2D989;
+    border-radius: 4px;
+    width: 15em;  
+    height: 3em;
+}
+
+.border-1 {
+    border: 2px dotted black;
+    border-radius: 4px;
+    background-color: white;
+    padding: 5px;
+}
+
+#post-title-1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#post-title-2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
