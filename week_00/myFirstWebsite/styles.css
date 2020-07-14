@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-    font-family: 'Courier';
+    font-family: 'Courier', monospace;
     background-color: #333333;
     text-transform: uppercase;
     height: 10px;
@@ -56,7 +56,7 @@ h3 {
     margin: 0;
 }
 
-#h3 {
+.h3 {
     color: #ff0099;
     line-height: 10px;
     padding-bottom: 10px;
@@ -69,7 +69,7 @@ h3 {
 }
 
 p {
-    font-family: 'Courier';
+    font-family: 'Courier', monospace;
     line-height: 25px;
 }
 
