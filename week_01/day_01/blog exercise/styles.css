@@ -34,6 +34,7 @@ h2 {
 }
 
 .title {
+    font-family: 'Shadows Into Light', cursive;
     width: 200px;
     border: 2px dotted black;
     border-radius: 4px;
