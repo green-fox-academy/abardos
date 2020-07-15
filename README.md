@@ -6,7 +6,7 @@
 
 [My first website exercise](https://abardos.github.io/)
 
-
+[Green Fox Academy Microtis-Italic-Sicile Syllabus](https://github.com/green-fox-academy/italic-sicile-syllabus)
 
 
 # abardos
