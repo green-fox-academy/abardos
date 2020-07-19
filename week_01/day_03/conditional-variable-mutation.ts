@@ -45,20 +45,12 @@ let isBonus: boolean = false;
 
 if (credits >= 50 && isBonus === false) {
     c = c - 2;
+} else if (credits < 50 && isBonus === false) {
+    c = c - 1;
 }
-
-if (credits < 50 && isBonus === false) {
-    c = c -1;
-}
-
-if (isBonus === false) {
-    
-    c = c;
-}
-
 console.log(c);
 
-let d: number =  7;
+let d: number = 7;
 let time: number = 199;
 let out3: string = '';
 
@@ -70,11 +62,11 @@ let out3: string = '';
 // otherwise set out3 to "Run Forest Run!"
 
 if (d % 4 === 0 && time <= 200) {
-    out3 = "Check"; 
-}   else if (time > 200) {
+    out3 = "Check";
+} else if (time > 200) {
     out3 = "Time Out";
-    } else {
-        out3 = "Run Forest Run!";
-        }    
+} else {
+    out3 = "Run Forest Run!";
+}
 
 console.log(out3);

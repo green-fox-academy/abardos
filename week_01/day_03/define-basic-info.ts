@@ -1,3 +1,8 @@
+// Define several things as a variable, then print their values
+// Your name as a string
+// Your age as a number
+// Your height in meters as a number
+// Whether you are married or not as a boolean
 'use strict';
 
 let myName: string = "Andi";
@@ -6,14 +11,5 @@ let myAge: number = 26;
 console.log(myAge);
 let myHeight: number = 1.75;
 console.log(myHeight);
-let isAwesome: boolean = true;
-console.log(isAwesome);
 let NotMarried: boolean = true;
-console.log("NotMarried");
-
-
-// Define several things as a variable, then print their values
-// Your name as a string
-// Your age as a number
-// Your height in meters as a number
-// Whether you are married or not as a boolean
+console.log(NotMarried);

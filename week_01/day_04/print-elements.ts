@@ -3,7 +3,8 @@
 // *hint: use a loop, console.log(numbers) won't cut it
 // -  bonus for using the correct built in array method
 'use strict';
-let numbers: number [] = [4, 5, 6, 7];
+
+let numbers: number[] = [4, 5, 6, 7];
 for (let i of numbers) {
     console.log(i);
 }

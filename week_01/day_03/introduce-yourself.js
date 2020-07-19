@@ -1,9 +1,3 @@
-'use strict';
-
-console.log('My name is Andi');
-console.log('I\'m 26');
-console.log('I\'m 1.75 m tall');
-
 // Write a program that prints a few details to the console about you
 // It should print each detail to a new line.
 //  - Your name
@@ -14,3 +8,8 @@ console.log('I\'m 1.75 m tall');
 //  John Doe
 //  31
 //  1.87
+'use strict';
+
+console.log('Andi Bárdos');
+console.log('26');
+console.log('175');
