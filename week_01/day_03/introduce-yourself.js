@@ -12,4 +12,4 @@
 
 console.log('Andi Bárdos');
 console.log('26');
-console.log('175');
+console.log('1.75');

@@ -11,5 +11,5 @@ let myAge: number = 26;
 console.log(myAge);
 let myHeight: number = 1.75;
 console.log(myHeight);
-let NotMarried: boolean = true;
-console.log(NotMarried);
+let Married: boolean = false;
+console.log(Married);
