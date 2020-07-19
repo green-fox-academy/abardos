@@ -6,5 +6,5 @@
 // -  Print the elements of the reversed `numbers`
 'use strict';
 
-let numbers: number[] = [3, 4, 5, 6, 7];
-console.log(numbers.reverse); // 	   -  do it with the built in method
+let numbers: number[] = [3, 4, 5, 6, 7].reverse();
+console.log(numbers); // 	   -  do it with the built in method
