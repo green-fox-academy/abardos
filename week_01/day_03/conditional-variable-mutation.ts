@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 let a: number = 24;
 let out: number = 0;
@@ -6,29 +6,28 @@ let out: number = 0;
 // if a is even increment out by one
 
 if (a % 2 === 0) {
-    out++;
+  out++;
 }
 
 console.log(out);
 
-
 let b: number = 13;
-let out2: string = '';
+let out2: string = "";
 
 // if b is between 10 and 20 set out2 to "Sweet!"
 // if less than 10 set out2 to "Less!",
 // if more than 20 set out2 to "More!"
 
 if (b >= 10 && b <= 20) {
-    out2 = "Sweet!";
+  out2 = "Sweet!";
 }
 
 if (b < 10) {
-    out2 = "Less!";
+  out2 = "Less!";
 }
 
 if (b > 20) {
-    out2 = "More!";
+  out2 = "More!";
 }
 
 console.log(out2);
@@ -44,15 +43,15 @@ let isBonus: boolean = false;
 // if is_bonus is true c should remain the same
 
 if (credits >= 50 && isBonus === false) {
-    c = c - 2;
+  c = c - 2;
 } else if (credits < 50 && isBonus === false) {
-    c = c - 1;
+  c = c - 1;
 }
 console.log(c);
 
 let d: number = 7;
 let time: number = 199;
-let out3: string = '';
+let out3: string = "";
 
 // if d is dividable by 4
 // and time is not more than 200
@@ -62,11 +61,11 @@ let out3: string = '';
 // otherwise set out3 to "Run Forest Run!"
 
 if (d % 4 === 0 && time <= 200) {
-    out3 = "Check";
+  out3 = "Check";
 } else if (time > 200) {
-    out3 = "Time Out";
+  out3 = "Time Out";
 } else {
-    out3 = "Run Forest Run!";
+  out3 = "Run Forest Run!";
 }
 
 console.log(out3);

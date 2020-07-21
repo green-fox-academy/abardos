@@ -3,9 +3,9 @@
 // - Double all the strings in the array, use a built in array method instead of
 //   a loop
 // - It should print: ['GinGin', 'WhiskeyWhiskey', 'WineWine', 'BeerBeer']`
-'use strict';
+"use strict";
 
-let drinks = ['Gin', 'Whiskey', 'Wine', 'Beer'];
+let drinks = ["Gin", "Whiskey", "Wine", "Beer"];
 drinks.forEach(function (value) {
-    console.log(value + value);
-}); 
+  console.log(value + value);
+});

@@ -14,7 +14,7 @@
 // 8 * 15 = 120
 // 9 * 15 = 135
 // 10 * 15 = 150
-'use strict';
+"use strict";
 
 let number: number = 15;
 for (let i: number = 1; i <= 10; i++) {

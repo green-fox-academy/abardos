@@ -2,10 +2,10 @@
 // -  Create a function called `greet` that greets it's input parameter
 //     -  Greeting is printing e.g. `Greetings, dear Green Fox`
 // -  Greet `nameToGreet`
-'use strict';
+"use strict";
 
 function greet(nameToGreet) {
-    console.log('Greetings, dear ' + nameToGreet);
+  console.log("Greetings, dear " + nameToGreet);
 }
 
-greet('Green Fox');
+greet("Green Fox");

@@ -3,7 +3,7 @@
 // Your age as a number
 // Your height in meters as a number
 // Whether you are married or not as a boolean
-'use strict';
+"use strict";
 
 let myName: string = "Andi";
 console.log(myName);

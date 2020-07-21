@@ -3,13 +3,13 @@
 //
 // Surface Area: 600
 // Volume: 1000
-'use strict';
+"use strict";
 
 let a: number = 2.2;
 let b: number = 3;
 let c: number = 4;
 let SurfaceArea = "Surface Area: " + 2 * (a * b + a * c + b * c);
-let Volume = "Volume: " + (a * b * c);
+let Volume = "Volume: " + a * b * c;
 
 console.log(SurfaceArea);
 console.log(Volume);

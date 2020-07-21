@@ -6,12 +6,12 @@
 //    `"orange red", "red", "tomato"`
 // -  In `colors[2]` store the shades of pink:
 //    `"orchid", "violet", "pink", "hot pink"`
-'use strict';
+"use strict";
 
 let colors: string[][] = [
-    ["lime", "forest green", "olive", "pale green", "spring green"],
-    ["orange red", "red", "tomato"],
-    ["orchid", "violet", "pink", "hot pink"]
+  ["lime", "forest green", "olive", "pale green", "spring green"],
+  ["orange red", "red", "tomato"],
+  ["orchid", "violet", "pink", "hot pink"],
 ];
 
 console.log(colors[0]);

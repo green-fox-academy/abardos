@@ -10,19 +10,20 @@
 //
 // * size should depend on a variable
 // ** Relax, a matrix is just like an array
-'use strict';
+"use strict";
 
 let matrix: number[][] = [
-    [0, 0, 0, 1],
-    [0, 0, 1, 0],
-    [0, 1, 0, 0],
-    [1, 0, 0, 0]
+  [0, 0, 0, 1],
+  [0, 0, 1, 0],
+  [0, 1, 0, 0],
+  [1, 0, 0, 0],
 ];
 for (let i: number = 0; i < matrix.length; i++) {
-    let stringy: string = ' '; {
-        for (let j: number = 0; j < matrix.length; j++) {
-            stringy = stringy + matrix[i][j] + ' ';
-        }
+  let stringy: string = " ";
+  {
+    for (let j: number = 0; j < matrix[i].length; j++) {
+      stringy = stringy + matrix[i][j] + " ";
     }
-    console.log(stringy);
-};
+  }
+  console.log(stringy);
+}
