@@ -17,20 +17,3 @@ function multiLine(path: string, word: string, number: number) {
 }
 
 multiLine("multi.txt", "\n apple", 5);
-
-/* multiLine('multi.txt', 'apple', 5);
-fs.appendFileSync(path,word)
-Function (
-1. function ()
-2. fs.appendFileSync(path,word)
-
-/*
-function countLines(filename) {
-  try {
-    let content = fs.readFileSync(filename, "utf-8");
-    return content.split("\n").length;
-  } catch (error) {
-    return 0;
-  }
-}
-console.log(countLines(filename)); */
